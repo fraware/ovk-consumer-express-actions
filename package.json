@@ -1,0 +1,24 @@
+{
+  "name": "ovk-consumer-express-actions",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Independent OVK consumer gate: Express + GitHub Actions",
+  "main": "dist/server.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "start": "node dist/server.js",
+    "dev": "tsx src/server.ts"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2",
+    "@types/express": "^4.17.21",
+    "@types/node": "^22.10.2"
+  }
+}
